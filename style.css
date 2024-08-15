@@ -1,0 +1,226 @@
+body{
+    margin:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:rgb(0, 0, 0);
+}
+
+.first{
+width:100%;
+height:100vh;
+overflow:hidden;
+position: relative;
+margin-bottom: 30px auto;
+}
+
+.bg-img{
+    width:100%;
+    height:100vh;
+    transform:scale(1.5); 
+    object-fit:cover;
+    
+}
+
+.tint{
+    background-color: rgba(0, 0, 0, 0.45);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.content{
+    position: absolute;
+    color: white;
+}
+
+
+.box{
+   
+    border: none solid white;
+    position: absolute;
+    top: 30%;
+    left: 21%;
+    width:1000px;
+    height:400px;
+  
+  
+}
+
+.title{
+    font-size:48px;
+    margin-bottom:10px;
+
+}
+
+
+
+.subtitle1{
+    font-size:25px;
+    margin-top:0px;
+}
+
+.subtitle2{
+    font-size:21px;
+    margin-top:0px;
+
+}
+
+.email{
+    background-color: rgba(0, 0, 0, 0.356);
+    width:348px;
+    margin-left:133px;
+    padding:20px;
+    padding-left: 12px;;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    border-radius:5px;
+    color:rgba(255, 255, 255, 0.453);
+    
+}
+
+.email::placeholder {
+    color: #ccc; 
+    font-size: 18px; 
+}
+
+
+.btn{
+    background-color:red;
+    width:210px;
+    height:57px;
+    border-radius:5px;
+    border:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+
+}
+
+.text{
+    color: white;
+    font-size:25px;
+    margin-right: 10px;
+  
+}
+
+.button svg {
+    width:23px;
+    height:23px;
+    fill: white;
+  
+}
+
+.flexbox-container{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    border: none solid white;
+    height:100px;
+    margin: top 1px;
+}
+
+.button{
+     display:flex;
+    gap:10px;
+}
+
+.nav{
+    position:absolute;
+    top:0;
+    display:flex;
+    width:1150px;
+    justify-content:space-between;
+    top:7.5%;
+    left:48.7%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.logo{
+    color:rgb(229, 9, 20);;
+}
+
+.nav-flex{
+    display:flex; 
+    gap:20px;
+}
+
+
+.login-btn{
+    padding:7.5px 16px;
+
+    border:none;
+    background-color:red;
+    color:white;
+    border-radius:5px;
+    font-size:15px;
+}
+
+
+.eng-btn{
+    padding:5px 16px;
+    
+    background-color: rgba(0, 0, 0, 0.481);
+    color:white;
+    border:1px  solid rgba(255, 255, 255, 0.593);
+    width:130px;
+    border-radius:5px;
+  
+    font-size:17px;
+}
+
+.second{
+    color:white;
+    display:flex;
+    width:990px;
+    margin:90px auto;
+    gap:100px;
+}
+ 
+.left{
+    width:50%
+}
+
+.right{
+    width:50%
+}
+
+.tv{
+    width:123%;
+    position:relative;
+
+    
+}
+
+.video{
+    margin-left:80px;
+    margin-top:95px;
+    height:60%;
+    object-fit:contain;
+    position:absolute;
+  
+}
+
+.real-tv{
+    width:495px;
+    display:block;
+position:relative;
+
+}
+
+.heading{
+    font-size:48px;
+    margin-top:140px;
+ 
+   
+}
+
+.subheading{
+    font-size:24px;
+}
+
+section{
+    border-bottom:8px solid #eeeeee49
+}
